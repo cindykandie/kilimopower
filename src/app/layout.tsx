@@ -19,8 +19,9 @@ const satoshi = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Kilimo Power",
-  description: "Kilimo Power",
+  title: "Kilimo Power | Power Your Farm. Cut Costs. Harvest More.",
+  description:
+    "Kenya's #1 farm technology platform. Solar pumps, backup systems and farm machinery delivered anywhere in Kenya. Pay After Delivery.",
 };
 
 export default function RootLayout({
@@ -31,9 +32,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      data-scroll-behavior="smooth"
       className={`${manrope.variable} ${plusJakartaSans.variable} ${satoshi.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full bg-[#F7F7F5]">{children}</body>
     </html>
   );
 }
