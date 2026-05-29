@@ -22,7 +22,7 @@ export default function MobileCTABar() {
         >
           <div className="flex gap-3">
             <a
-              href="https://wa.me/254700000000"
+              href="https://wa.me/254707686192"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 inline-flex items-center justify-center gap-2 bg-[#22C55E] text-white font-bold rounded-2xl py-4 text-sm shadow-[0_4px_20px_rgba(34,197,94,0.35)] touch-target"

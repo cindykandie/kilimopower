@@ -149,7 +149,7 @@ export default function InquiryForm() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     const msg = `Hi! New inquiry from Kilimo Power website:\n\nName: ${form.name}\nPhone: ${form.phone}\nCounty: ${form.county}\nFarm Size: ${form.farmSize}\nChallenge: ${form.challenge}\nInterested In: ${form.interest}\nBudget: ${form.budget}\nNotes: ${form.notes}`
-    window.open(`https://wa.me/254707768619?text=${encodeURIComponent(msg)}`, "_blank")
+    window.open(`https://wa.me/254707686192?text=${encodeURIComponent(msg)}`, "_blank")
     setSubmitted(true)
   }
 

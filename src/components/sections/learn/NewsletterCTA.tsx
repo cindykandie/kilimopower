@@ -120,7 +120,7 @@ export default function NewsletterCTA() {
 
             <motion.a
               variants={fadeUp}
-              href="https://wa.me/254707768619?text=Hi, I'd like to get weekly farm tips from Kilimo Power"
+              href="https://wa.me/254707686192?text=Hi, I'd like to get weekly farm tips from Kilimo Power"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 mt-4 bg-white/10 hover:bg-white/15 border border-white/20 text-white font-semibold rounded-2xl px-6 py-3.5 transition-all"

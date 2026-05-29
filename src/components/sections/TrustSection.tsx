@@ -110,7 +110,7 @@ export default function TrustSection() {
               </p>
             </div>
             <a
-              href="https://wa.me/254700000000?text=Hi, I'd like to order with payment after delivery"
+              href="https://wa.me/254707686192?text=Hi, I'd like to order with payment after delivery"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-shrink-0 inline-flex items-center gap-2 bg-[#F4B740] hover:bg-[#e6a830] text-[#0F172A] font-bold rounded-2xl px-7 py-4 text-base shadow-[0_4px_24px_rgba(244,183,64,0.4)] transition-all btn-lift"
@@ -181,7 +181,7 @@ export default function TrustSection() {
                 </div>
                 <div>
                   <div className="text-[#0F172A] font-semibold text-sm">{t.name}</div>
-                  <div className="text-[#475569] text-xs">{t.county}</div>
+                  <div className="text-[#475569] text-xs">{t.role ? `${t.role} — ${t.county}` : t.county}</div>
                 </div>
                 <div className="ml-auto">
                   <div className="bg-[#0B3D2E]/10 text-[#0B3D2E] text-xs font-medium rounded-full px-3 py-1">

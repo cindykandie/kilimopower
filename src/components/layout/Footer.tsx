@@ -99,7 +99,7 @@ export default function Footer() {
             <div className="text-white font-semibold mb-2">Need Help Now?</div>
             <p className="text-white/50 text-sm mb-4">Our team is available Mon–Sat, 7am–8pm.</p>
             <a
-              href="https://wa.me/254700000000"
+              href="https://wa.me/254707686192"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 w-full justify-center bg-[#22C55E] hover:bg-[#16a34a] text-white font-semibold rounded-2xl px-5 py-3 text-sm transition-all btn-lift"

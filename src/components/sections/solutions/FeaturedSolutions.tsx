@@ -142,7 +142,7 @@ export default function FeaturedSolutions() {
                         {solution.price}
                       </div>
                       <a
-                        href={`https://wa.me/254700000000?text=Hi, I'm interested in the ${encodeURIComponent(solution.title)} solution`}
+                        href={`https://wa.me/254707686192?text=Hi, I'm interested in the ${encodeURIComponent(solution.title)} solution`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 w-full bg-[#22C55E] hover:bg-[#16a34a] text-white font-bold rounded-2xl py-3.5 text-sm transition-all btn-lift shadow-[0_4px_20px_rgba(34,197,94,0.35)]"

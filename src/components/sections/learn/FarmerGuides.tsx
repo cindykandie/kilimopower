@@ -119,7 +119,7 @@ export default function FarmerGuides() {
                       Read Guide
                     </button>
                     <a
-                      href={`https://wa.me/254707768619?text=Hi, I'd like help with: ${encodeURIComponent(guide.title)}`}
+                      href={`https://wa.me/254707686192?text=Hi, I'd like help with: ${encodeURIComponent(guide.title)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 flex items-center justify-center bg-[#22C55E]/10 hover:bg-[#22C55E] rounded-xl transition-all group/wa"

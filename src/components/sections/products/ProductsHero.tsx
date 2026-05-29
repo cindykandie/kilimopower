@@ -79,7 +79,7 @@ export default function ProductsHero() {
                 Browse Products
               </a>
               <a
-                href="https://wa.me/254700000000"
+                href="https://wa.me/254707686192"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white font-semibold rounded-2xl px-7 py-4 text-base transition-all"

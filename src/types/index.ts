@@ -49,6 +49,7 @@ export interface Category {
 export interface Testimonial {
   id: string
   name: string
+  role?: string
   county: string
   rating: number
   quote: string

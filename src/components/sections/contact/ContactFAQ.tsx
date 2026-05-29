@@ -94,7 +94,7 @@ export default function ContactFAQ() {
           <p className="text-[#475569] mb-2">Still have questions?</p>
           <p className="text-[#0B3D2E] font-semibold text-sm mb-5">{PHONE}</p>
           <a
-            href={`https://wa.me/254707768619?text=Hi, I have a question before ordering`}
+            href={`https://wa.me/254707686192?text=Hi, I have a question before ordering`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#22C55E] hover:bg-[#16a34a] text-white font-semibold rounded-2xl px-7 py-3.5 transition-all btn-lift shadow-[0_4px_16px_rgba(34,197,94,0.3)]"

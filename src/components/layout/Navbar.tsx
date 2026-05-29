@@ -39,7 +39,7 @@ export default function Navbar() {
               alt="Kilimo Power"
               width={140}
               height={40}
-              className="h-9 md:h-11 w-auto object-contain"
+              className="h-9 md:h-11 w-auto object-contain bg-white rounded-md px-1"
               priority
             />
           </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
           {/* CTA + hamburger */}
           <div className="flex items-center gap-3">
             <a
-              href="https://wa.me/254700000000"
+              href="https://wa.me/254707686192"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 bg-[#22C55E] hover:bg-[#16a34a] text-white text-sm font-semibold rounded-2xl px-4 py-2.5 transition-all btn-lift"
@@ -133,7 +133,7 @@ export default function Navbar() {
             {/* Mobile WA CTA */}
             <div className="px-6 pb-[env(safe-area-inset-bottom,1.5rem)] pb-8">
               <a
-                href="https://wa.me/254700000000"
+                href="https://wa.me/254707686192"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full bg-[#22C55E] text-white font-bold text-lg rounded-3xl py-4 transition-all btn-lift"

@@ -5,7 +5,7 @@ import { MessageCircle, Clock, Shield, ChevronRight } from "lucide-react"
 import { fadeUp, stagger } from "@/lib/animations"
 
 const PHONE = "+254 707 768 6192"
-const WA_LINK = "https://wa.me/254707768619?text=Hi! I need help choosing the right farm solution"
+const WA_LINK = "https://wa.me/254707686192?text=Hi! I need help choosing the right farm solution"
 
 const messageExamples = [
   { msg: "I need a pump for 3 acres near a river 🌊", from: "farmer", delay: 0 },

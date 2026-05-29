@@ -6,7 +6,7 @@ import { MessageCircle, Phone, ChevronRight, Truck, CreditCard, Shield } from "l
 import { fadeUp, stagger } from "@/lib/animations"
 
 const PHONE = "+254 707 768 6192"
-const WA_LINK = "https://wa.me/254707768619?text=Hi! I'd like to talk to a farm power expert"
+const WA_LINK = "https://wa.me/254707686192?text=Hi! I'd like to talk to a farm power expert"
 
 const trust = [
   { icon: MessageCircle, label: "Reply in 3 min", color: "#22C55E" },
