@@ -1,5 +1,6 @@
 "use client"
 import { motion } from "framer-motion"
+import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import ProductCard from "@/components/shared/ProductCard"
 import { products } from "@/data/products"
@@ -31,10 +32,13 @@ export default function FeaturedProducts() {
               as You Do
             </h2>
           </div>
-          <button className="inline-flex items-center gap-2 text-[#0B3D2E] font-semibold hover:gap-3 transition-all whitespace-nowrap self-start sm:self-auto">
+          <Link
+            href="/products"
+            className="inline-flex items-center gap-2 text-[#0B3D2E] font-semibold hover:gap-3 transition-all whitespace-nowrap self-start sm:self-auto"
+          >
             View All Products
             <ArrowRight className="w-4 h-4" />
-          </button>
+          </Link>
         </motion.div>
 
         {/* Grid */}
@@ -62,7 +66,7 @@ export default function FeaturedProducts() {
         >
           <p className="text-[#475569] mb-4">Not sure which product fits your farm?</p>
           <a
-            href="https://wa.me/254700000000?text=Hi, I need help choosing a product for my farm"
+            href="https://wa.me/254707686192?text=Hi, I need help choosing a product for my farm"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#0B3D2E] hover:bg-[#14532D] text-white font-semibold rounded-2xl px-7 py-3.5 transition-all btn-lift shadow-[0_4px_20px_rgba(11,61,46,0.3)]"

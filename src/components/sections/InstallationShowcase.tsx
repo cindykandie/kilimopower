@@ -99,7 +99,7 @@ export default function InstallationShowcase() {
             We&apos;ve installed systems in 47 counties. Yours could be next.
           </p>
           <a
-            href="https://wa.me/254700000000?text=Hi, I'd like to get an installation for my farm"
+            href="https://wa.me/254707686192?text=Hi, I'd like to get an installation for my farm"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border-2 border-[#0B3D2E] text-[#0B3D2E] hover:bg-[#0B3D2E] hover:text-white font-semibold rounded-2xl px-7 py-3.5 transition-all"

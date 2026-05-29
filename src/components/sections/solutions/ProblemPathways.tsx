@@ -139,7 +139,7 @@ export default function ProblemPathways() {
                   {/* CTA */}
                   <AnimatePresence>
                     <motion.a
-                      href={`https://wa.me/254700000000?text=Hi, I need help with: ${encodeURIComponent(pathway.headline)}`}
+                      href={`https://wa.me/254707686192?text=Hi, I need help with: ${encodeURIComponent(pathway.headline)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       initial={{ y: 4, opacity: 0.85 }}

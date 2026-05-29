@@ -111,7 +111,7 @@ function TiltCard({ product }: { product: Product }) {
 
         {/* CTA */}
         <a
-          href={`https://wa.me/254700000000?text=Hi, I'm interested in the ${encodeURIComponent(product.name)}`}
+          href={`https://wa.me/254707686192?text=Hi, I'm interested in the ${encodeURIComponent(product.name)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 w-full bg-[#22C55E] hover:bg-[#16a34a] text-white font-semibold rounded-2xl py-3 text-sm transition-all btn-lift shadow-[0_3px_12px_rgba(34,197,94,0.3)]"

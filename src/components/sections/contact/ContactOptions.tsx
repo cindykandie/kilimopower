@@ -4,7 +4,7 @@ import { MessageCircle, Phone, Package, Handshake, ArrowRight } from "lucide-rea
 import { fadeUp, stagger, scaleIn } from "@/lib/animations"
 
 const PHONE = "+254 707 768 6192"
-const WA_BASE = "https://wa.me/254707768619"
+const WA_BASE = "https://wa.me/254707686192"
 
 const options = [
   {

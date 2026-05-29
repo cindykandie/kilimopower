@@ -4,6 +4,7 @@ import Footer from "@/components/layout/Footer"
 import MobileCTABar from "@/components/shared/MobileCTABar"
 import ContactHero from "@/components/sections/contact/ContactHero"
 import ContactOptions from "@/components/sections/contact/ContactOptions"
+import ReachDirectly from "@/components/sections/contact/ReachDirectly"
 import InquiryForm from "@/components/sections/contact/InquiryForm"
 import WhatsAppPriorityCTA from "@/components/sections/contact/WhatsAppPriorityCTA"
 import DeliveryCoverage from "@/components/sections/contact/DeliveryCoverage"
@@ -29,6 +30,7 @@ export default function ContactPage() {
       <main>
         <ContactHero />
         <ContactOptions />
+        <ReachDirectly />
         <InquiryForm />
         <WhatsAppPriorityCTA />
         <DeliveryCoverage />

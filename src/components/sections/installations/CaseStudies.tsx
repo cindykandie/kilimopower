@@ -115,7 +115,7 @@ export default function CaseStudies() {
 
                 {/* CTA */}
                 <a
-                  href={`https://wa.me/254700000000?text=Hi, I'd like a setup similar to the ${encodeURIComponent(cs.title)}`}
+                  href={`https://wa.me/254707686192?text=Hi, I'd like a setup similar to the ${encodeURIComponent(cs.title)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-[#0B3D2E] font-semibold text-sm self-start hover:gap-3 transition-all group/link"

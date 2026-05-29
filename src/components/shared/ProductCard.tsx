@@ -1,5 +1,6 @@
 "use client"
 import { motion } from "framer-motion"
+import Link from "next/link"
 import { MessageCircle, Eye, ShoppingCart, Tag } from "lucide-react"
 import { Product } from "@/types"
 
@@ -85,7 +86,7 @@ export default function ProductCard({ product }: { product: Product }) {
         {/* Action buttons */}
         <div className="flex gap-2">
           <a
-            href={`https://wa.me/254700000000?text=Hi, I'm interested in the ${product.name}`}
+            href={`https://wa.me/254707686192?text=Hi, I'm interested in the ${product.name}`}
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 inline-flex items-center justify-center gap-2 bg-[#22C55E] hover:bg-[#16a34a] text-white text-sm font-semibold rounded-2xl py-3 transition-all btn-lift"
@@ -97,6 +98,14 @@ export default function ProductCard({ product }: { product: Product }) {
             <ShoppingCart className="w-4 h-4" />
           </button>
         </div>
+
+        {/* See more in category */}
+        <Link
+          href={`/products#${product.category.toLowerCase()}`}
+          className="mt-3 text-xs text-[#0B3D2E]/60 hover:text-[#0B3D2E] font-medium transition-colors text-center block"
+        >
+          See more {product.category} →
+        </Link>
       </div>
     </motion.div>
   )

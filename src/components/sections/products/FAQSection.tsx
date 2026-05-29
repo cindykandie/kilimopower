@@ -118,7 +118,7 @@ export default function FAQSection() {
         >
           <p className="text-[#475569] mb-4">Still have a question?</p>
           <a
-            href="https://wa.me/254700000000?text=Hi, I have a question about Kilimo Power products"
+            href="https://wa.me/254707686192?text=Hi, I have a question about Kilimo Power products"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#22C55E] hover:bg-[#16a34a] text-white font-semibold rounded-2xl px-7 py-3.5 transition-all btn-lift shadow-[0_4px_16px_rgba(34,197,94,0.3)]"

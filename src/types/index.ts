@@ -44,11 +44,13 @@ export interface Category {
   gradient: string
   border: string
   href: string
+  subcategories?: string[]
 }
 
 export interface Testimonial {
   id: string
   name: string
+  role?: string
   county: string
   rating: number
   quote: string

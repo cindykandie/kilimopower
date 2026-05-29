@@ -4,9 +4,7 @@ import HeroSection from "@/components/sections/HeroSection"
 import CategoryPathways from "@/components/sections/CategoryPathways"
 import FeaturedProducts from "@/components/sections/FeaturedProducts"
 import TrustSection from "@/components/sections/TrustSection"
-import InstallationShowcase from "@/components/sections/InstallationShowcase"
 import WhatsAppCTA from "@/components/sections/WhatsAppCTA"
-import BlogSection from "@/components/sections/BlogSection"
 import MobileCTABar from "@/components/shared/MobileCTABar"
 
 export default function HomePage() {
@@ -18,9 +16,7 @@ export default function HomePage() {
         <CategoryPathways />
         <FeaturedProducts />
         <TrustSection />
-        <InstallationShowcase />
         <WhatsAppCTA />
-        <BlogSection />
       </main>
       <Footer />
       <MobileCTABar />

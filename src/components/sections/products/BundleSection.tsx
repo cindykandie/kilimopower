@@ -133,7 +133,7 @@ export default function BundleSection() {
                     </div>
 
                     <a
-                      href={`https://wa.me/254700000000?text=Hi, I'm interested in the "${encodeURIComponent(bundle.title)}" bundle`}
+                      href={`https://wa.me/254707686192?text=Hi, I'm interested in the "${encodeURIComponent(bundle.title)}" bundle`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2 w-full bg-white text-[#0B3D2E] hover:bg-[#F4B740] font-bold rounded-2xl py-3.5 text-sm transition-all group-hover:shadow-[0_4px_20px_rgba(255,255,255,0.2)]"
@@ -158,7 +158,7 @@ export default function BundleSection() {
           className="text-center text-[#475569] text-sm mt-8"
         >
           All bundles include delivery, installation guide, and 1-year warranty.{" "}
-          <a href="https://wa.me/254700000000" className="text-[#0B3D2E] font-semibold hover:underline">
+          <a href="https://wa.me/254707686192" className="text-[#0B3D2E] font-semibold hover:underline">
             Need a custom bundle?
           </a>
         </motion.p>

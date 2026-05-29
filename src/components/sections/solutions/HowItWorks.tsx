@@ -19,7 +19,7 @@ const steps = [
     title: "We Recommend the Right Setup",
     description: "Our agricultural consultants analyse your situation and recommend the exact solution — products, specs, and expected ROI. Free, no commitment.",
     accent: "#F4B740",
-    pill: "Response in 3 minutes",
+    pill: "Response in 30 minutes",
   },
   {
     number: "03",
@@ -118,7 +118,7 @@ export default function HowItWorks() {
             {/* CTA button */}
             <motion.div variants={fadeUp} className="pl-16">
               <a
-                href="https://wa.me/254700000000?text=Hi! I'd like to get started with a free farm consultation"
+                href="https://wa.me/254707686192?text=Hi! I'd like to get started with a free farm consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-[#22C55E] hover:bg-[#16a34a] text-white font-bold rounded-2xl px-7 py-4 shadow-[0_4px_32px_rgba(34,197,94,0.4)] transition-all btn-lift"

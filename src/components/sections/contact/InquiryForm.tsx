@@ -149,7 +149,7 @@ export default function InquiryForm() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     const msg = `Hi! New inquiry from Kilimo Power website:\n\nName: ${form.name}\nPhone: ${form.phone}\nCounty: ${form.county}\nFarm Size: ${form.farmSize}\nChallenge: ${form.challenge}\nInterested In: ${form.interest}\nBudget: ${form.budget}\nNotes: ${form.notes}`
-    window.open(`https://wa.me/254707768619?text=${encodeURIComponent(msg)}`, "_blank")
+    window.open(`https://wa.me/254707686192?text=${encodeURIComponent(msg)}`, "_blank")
     setSubmitted(true)
   }
 
@@ -174,7 +174,7 @@ export default function InquiryForm() {
                 <span className="text-[#0B3D2E]">Your Farm</span>
               </h2>
               <p className="text-[#475569] text-lg leading-relaxed mb-8 max-w-md">
-                Fill out this form and we&apos;ll send a tailored recommendation via WhatsApp — usually within 3 minutes.
+                Fill out this form and we&apos;ll send a tailored recommendation via WhatsApp — usually within 30 minutes.
               </p>
             </motion.div>
 

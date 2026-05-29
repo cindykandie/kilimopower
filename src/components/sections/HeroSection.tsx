@@ -1,6 +1,7 @@
 "use client"
 import { useRef } from "react"
 import Image from "next/image"
+import Link from "next/link"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { MessageCircle, ChevronRight, ShoppingBag } from "lucide-react"
 import { fadeUp, stagger } from "@/lib/animations"
@@ -64,7 +65,7 @@ export default function HeroSection() {
       {/* Main content */}
       <motion.div
         style={{ y: contentY, opacity }}
-        className="relative z-10 flex-1 flex flex-col items-center justify-center px-5 pt-28 md:pt-36 pb-8 text-center"
+        className="relative z-10 flex-1 flex flex-col items-center justify-center px-5 pt-8 md:pt-6 pb-8 text-center"
       >
         {/* Live badge */}
         <motion.div
@@ -87,14 +88,8 @@ export default function HeroSection() {
           className="text-[2.6rem] sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.08] tracking-[-0.03em] mb-6 max-w-4xl"
           style={{ fontFamily: "var(--font-satoshi)" }}
         >
-          Power Your Farm.{" "}
-          <span
-            className="text-[#F4B740]"
-            style={{ textShadow: "0 0 40px rgba(244,183,64,0.4)" }}
-          >
-            Cut Costs.
-          </span>{" "}
-          Harvest More.
+         
+          Harvest The Future.
         </motion.h1>
 
         {/* Sub */}
@@ -115,7 +110,7 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-3 mb-14"
         >
           <a
-            href="https://wa.me/254700000000"
+            href="https://wa.me/254707686192"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2.5 bg-[#22C55E] hover:bg-[#16a34a] text-white font-bold rounded-2xl px-7 py-4 text-base shadow-[0_4px_24px_rgba(34,197,94,0.35)] transition-all btn-lift"
@@ -123,11 +118,14 @@ export default function HeroSection() {
             <MessageCircle className="w-5 h-5" />
             Chat on WhatsApp
           </a>
-          <button className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/18 backdrop-blur-sm border border-white/20 text-white font-semibold rounded-2xl px-7 py-4 text-base transition-all">
+          <Link
+            href="/products"
+            className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/18 backdrop-blur-sm border border-white/20 text-white font-semibold rounded-2xl px-7 py-4 text-base transition-all"
+          >
             <ShoppingBag className="w-5 h-5" />
             Browse Products
             <ChevronRight className="w-4 h-4" />
-          </button>
+          </Link>
         </motion.div>
 
         {/* Stats */}
@@ -180,50 +178,52 @@ export default function HeroSection() {
         ))}
       </div>
 
-      {/* Mascots */}
-      <motion.div
-        style={{ y: mascotsY }}
-        className="absolute bottom-12 left-0 w-28 md:w-44 z-10 pointer-events-none"
-        initial={{ x: -60, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ delay: 1, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-      >
-        <Image
-          src="/femalembuzi.png"
-          alt="Kilimo Power mascot"
-          width={180}
-          height={260}
-          className="w-full h-auto object-contain drop-shadow-2xl"
-        />
-      </motion.div>
-      <motion.div
-        style={{ y: mascotsY }}
-        className="absolute bottom-12 right-0 w-28 md:w-44 z-10 pointer-events-none scale-x-[-1]"
-        initial={{ x: 60, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ delay: 1.1, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-      >
-        <Image
-          src="/malembuzi.png"
-          alt="Kilimo Power mascot"
-          width={180}
-          height={260}
-          className="w-full h-auto object-contain drop-shadow-2xl "
-        />
-      </motion.div>
+      {/* Mascots anchored above trust strip */}
+      <div className="relative z-10">
+        <motion.div
+          style={{ y: mascotsY }}
+          className="absolute bottom-full left-0 w-28 md:w-44 pointer-events-none"
+          initial={{ x: -60, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 1, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+        >
+          <Image
+            src="/femalembuzi.png"
+            alt="Kilimo Power mascot"
+            width={180}
+            height={260}
+            className="w-full h-auto object-contain drop-shadow-2xl"
+          />
+        </motion.div>
+        <motion.div
+          style={{ y: mascotsY }}
+          className="absolute bottom-full right-0 w-28 md:w-44 pointer-events-none scale-x-[-1]"
+          initial={{ x: 60, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 1.1, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+        >
+          <Image
+            src="/malembuzi.png"
+            alt="Kilimo Power mascot"
+            width={180}
+            height={260}
+            className="w-full h-auto object-contain drop-shadow-2xl"
+          />
+        </motion.div>
 
-      {/* Trust strip */}
-      <div className="relative z-10 border-t border-white/10 bg-black/20 backdrop-blur-sm py-4 px-4">
-        <div className="max-w-4xl mx-auto flex items-center justify-center flex-wrap gap-x-6 gap-y-2">
-          {trustItems.map((item, i) => (
-            <div key={item.label} className="flex items-center gap-1.5 text-white/75 text-sm font-medium">
-              <span className="text-base">{item.emoji}</span>
-              {item.label}
-              {i < trustItems.length - 1 && (
-                <span className="hidden sm:inline ml-4 text-white/20">·</span>
-              )}
-            </div>
-          ))}
+        {/* Trust strip */}
+        <div className="border-t border-white/10 bg-black/20 backdrop-blur-sm py-4 px-4">
+          <div className="max-w-4xl mx-auto flex items-center justify-center flex-wrap gap-x-6 gap-y-2">
+            {trustItems.map((item, i) => (
+              <div key={item.label} className="flex items-center gap-1.5 text-white/75 text-sm font-medium">
+                <span className="text-base">{item.emoji}</span>
+                {item.label}
+                {i < trustItems.length - 1 && (
+                  <span className="hidden sm:inline ml-4 text-white/20">·</span>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

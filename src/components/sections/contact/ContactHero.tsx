@@ -6,7 +6,7 @@ import { MessageCircle, Phone, ChevronRight, Truck, CreditCard, Shield } from "l
 import { fadeUp, stagger } from "@/lib/animations"
 
 const PHONE = "+254 707 768 6192"
-const WA_LINK = "https://wa.me/254707768619?text=Hi! I'd like to talk to a farm power expert"
+const WA_LINK = "https://wa.me/254707686192?text=Hi! I'd like to talk to a farm power expert"
 
 const trust = [
   { icon: MessageCircle, label: "Reply in 3 min", color: "#22C55E" },
@@ -165,7 +165,7 @@ export default function ContactHero() {
                 <div className="w-2 h-2 rounded-full bg-[#22C55E] animate-pulse" />
                 <span className="text-[#0F172A] font-bold text-sm">Usually online</span>
               </div>
-              <div className="text-[#475569] text-xs mt-0.5">Avg response: 3 minutes</div>
+              <div className="text-[#475569] text-xs mt-0.5">Avg response: 30 minutes</div>
             </motion.div>
           </motion.div>
         </div>
