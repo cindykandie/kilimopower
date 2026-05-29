@@ -174,7 +174,7 @@ export default function InquiryForm() {
                 <span className="text-[#0B3D2E]">Your Farm</span>
               </h2>
               <p className="text-[#475569] text-lg leading-relaxed mb-8 max-w-md">
-                Fill out this form and we&apos;ll send a tailored recommendation via WhatsApp — usually within 3 minutes.
+                Fill out this form and we&apos;ll send a tailored recommendation via WhatsApp — usually within 30 minutes.
               </p>
             </motion.div>
 

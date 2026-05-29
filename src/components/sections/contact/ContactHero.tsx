@@ -165,7 +165,7 @@ export default function ContactHero() {
                 <div className="w-2 h-2 rounded-full bg-[#22C55E] animate-pulse" />
                 <span className="text-[#0F172A] font-bold text-sm">Usually online</span>
               </div>
-              <div className="text-[#475569] text-xs mt-0.5">Avg response: 3 minutes</div>
+              <div className="text-[#475569] text-xs mt-0.5">Avg response: 30 minutes</div>
             </motion.div>
           </motion.div>
         </div>

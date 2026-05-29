@@ -9,7 +9,6 @@ import { useScrollPosition } from "@/hooks/useScrollPosition"
 const navLinks = [
   { label: "Products", href: "/products" },
   { label: "Solutions", href: "/solutions" },
-  { label: "Installations", href: "/installations" },
   { label: "Learn", href: "/learn" },
   { label: "Contact", href: "/contact" },
 ]

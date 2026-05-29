@@ -44,6 +44,7 @@ export interface Category {
   gradient: string
   border: string
   href: string
+  subcategories?: string[]
 }
 
 export interface Testimonial {

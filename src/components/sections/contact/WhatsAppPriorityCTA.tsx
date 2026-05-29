@@ -41,7 +41,7 @@ export default function WhatsAppPriorityCTA() {
           >
             <motion.div variants={fadeUp} className="inline-flex items-center gap-2 bg-[#22C55E]/15 border border-[#22C55E]/25 rounded-full px-4 py-2 mb-6">
               <Clock className="w-3.5 h-3.5 text-[#22C55E]" />
-              <span className="text-[#22C55E] text-sm font-semibold">Usually replies in under 3 minutes</span>
+              <span className="text-[#22C55E] text-sm font-semibold">Usually replies in under 30 minutes</span>
             </motion.div>
 
             <motion.h2

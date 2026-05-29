@@ -10,7 +10,7 @@ const faqs = [
   { q: "Do you deliver nationwide?", a: "Yes — we deliver to all 47 counties in Kenya. Whether you're in Nairobi, Turkana, or Kwale, we'll get your order to you in 1–5 business days depending on location." },
   { q: "Can I pay after delivery?", a: "Absolutely. We deliver first. You inspect and test the product, then pay when you're fully satisfied. We accept M-Pesa, cash on delivery, and bank transfer. Zero risk to you." },
   { q: "Do you install the equipment?", a: "Yes — professional installation is available for solar pumps, irrigation systems, backup kits, and incubators across most counties. Chat with us to get a quote for your area." },
-  { q: "How fast do you respond on WhatsApp?", a: "Our average response time is 3 minutes during operating hours (8am–6pm, Mon–Sat). Outside those hours we typically reply within the morning." },
+  { q: "How fast do you respond on WhatsApp?", a: "Our average response time is 30 minutes during operating hours (8am–6pm, Mon–Sat). Outside those hours we typically reply within the morning." },
   { q: "Can distributors partner with Kilimo Power?", a: "Yes! We welcome partnerships with agrovets, retailers, and rural distributors. If you're interested in distributing our products, message us with 'Distributor Inquiry' and we'll share our partnership terms." },
   { q: "Do you support SACCO or group orders?", a: "Yes! We have special pricing for SACCOs, farmer groups, NGOs, and bulk buyers. If you're buying for 5 or more farmers, contact us for group discounts and flexible payment options." },
 ]
